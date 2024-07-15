@@ -1,0 +1,113 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #ffe5ec;
+  position: fixed;
+}
+.img1{
+    image-rendering:crisp-edges;
+    width: 650px;
+    height: 550px;
+    position: relative;
+    top: 100px;
+    right: 100px;
+    z-index: 2;
+  }
+  /* .img2{
+    image-rendering:crisp-edges;
+    width: 50%;
+    height: 500px;
+    position: relative;
+    z-index: 5;
+  } */
+  .tag{
+    position: relative;
+    bottom: 500px;
+    z-index: 5;
+  }
+  .wrapper{
+    position: relative;
+    width: 600px;
+    height: 520px;
+    z-index: 10;
+    bottom: 500px;
+    left: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: transparent;*/
+    /* border: 2px solid rgba(255,255, 255, .2);  */
+    /* backdrop-filter: blur(20px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    /* box-shadow: 0 0 10px rgba(0,0,0,.2); */
+    color: black;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.15);
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+  }
+  .icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 140px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .iconimg{
+    width: 100px;
+    height: 100px;
+  }
+  .face{
+    width: 70px;
+    height: 70px;
+  }
+  .txt{
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+  .face2{
+    width: 90px;
+    height: 90px;
+    margin-top: -10px;
+  }
+.txt2{
+  margin-top: 11px;
+  margin-left: -10px;
+}
+.txt3{
+  margin-top: 2px;
+  margin-left: -15px;
+}
+.check{
+  margin-top: 30px;
+}
+input[type="checkbox"]
+{
+    vertical-align:middle;
+    width: 20px;
+  height: 20px;
+  margin-left: -80px;
+}
+.checktxt{
+  width: 100px !important;
+}
+.go-but{
+  width: 100%;
+}
+.button1{
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  height: 45px;
+  background-color: #fa3869;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.cam{
+  margin-top: 5px !important;
+}
+.but-txt{
+  margin-top: -25px;
+}
